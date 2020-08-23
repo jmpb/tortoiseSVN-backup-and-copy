@@ -8,4 +8,9 @@ I did not want to place the workspace folder somewhere where it would have a lon
 
 ## What
 
-I created this Windows Batch File to make a tortoiseSVN backup and copy it to the other drive. Then using Windows Task Scheduler, I had it run a few times a day with appropriate timestamps.
+I created this Windows Batch File to make a tortoiseSVN backup and copy the workspace folder to another drive. Then using Windows Task Scheduler, I had it run a few times a day with appropriate timestamps. This meant that I always had a few versions backed up.
+
+## Improvement
+
+- The way this works currently, it creates a few backups everyday but there is no automatic clean up of older backups. If left unchecked this could quickly become a problem so an automatic cleanup after each run would be sensible.
+- Depending on desired usage, the file could also copy the repository backup to the other drive.
