@@ -1,4 +1,4 @@
-# Copy TortoiseSVN workspace folder to another drive
+# Backup TortoiseSVN Repo and Copy workspace folder to another drive
 
 I was required to use TortoiseSVN as part of a project. I needed a way to also backup my work to a remote location.
 
